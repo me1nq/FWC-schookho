@@ -59,6 +59,24 @@ body {
     padding-bottom: 5px;
 }
 
+.switch-btn {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: transparent;
+    border: 1px solid #58a6ff;
+    padding: 8px 18px;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.switch-btn:hover {
+    background-color: rgba(88, 166, 255, 0.15);
+    box-shadow: 0 0 10px rgba(88, 166, 255, 0.3);
+    color: #ffffff;
+}
+
 .container {
     flex: 1; 
     display: flex;
