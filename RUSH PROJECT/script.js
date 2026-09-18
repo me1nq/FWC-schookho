@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     
-    const emailElement = document.querySelector('.contact-info p');
+    const emailElement = document.querySelector('.email-text');
     
     if (emailElement) {
         emailElement.style.cursor = 'pointer'; 
